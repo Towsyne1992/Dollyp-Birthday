@@ -83,7 +83,7 @@ h2 {
         float: none;
         display: block;
         margin: 10px auto;
-        transition: all 1s;
+        transition: all 2s;
 
     }
         .logo:hover  {
