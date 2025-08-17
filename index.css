@@ -26,11 +26,13 @@ span {
     padding: 20px;
     align-items: center;
     float: left;
+
     transition: all 1s;
+    margin-right: 20px;
 }
     
     .logo:hover {
-        transform: scale(1.5)
+        transform: scale(1.2)
     }
 
 
@@ -85,7 +87,7 @@ h2 {
 
     }
         .logo:hover  {
-        transform: scale(1.5)
+        transform: rotate(360deg)
     }
 
 
