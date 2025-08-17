@@ -1,0 +1,116 @@
+body {
+    background-color: #f0f8ff;
+}
+
+.container {
+    width: 940px;
+    height: 700px;
+    border: 5px solid #ffff;
+    background: url(./images1/background\ image.avif);
+    border-radius: 25px;
+    padding: 25px;
+}
+h1 {
+    font-size: 2rem;
+   font-family: "Homemade Apple", cursive;
+   font-weight: 400;
+   margin: 0;
+   gap: 0;
+
+}
+span {
+    color: #0000cd	;
+}
+.logo {
+    border-radius: 50px;
+    padding: 20px;
+    align-items: center;
+    float: left;
+    transition: all 1s;
+}
+    
+    .logo:hover {
+        transform: scale(1.5)
+    }
+
+
+
+p {
+   font-size: 1.5rem; 
+   color: #000080;
+   background-color: hsla(0, 0%, 100%, 0.5);	
+  font-family: "Cookie", cursive;
+   font-weight: 400;
+  font-style: normal;
+  gap: 2px;
+
+}
+h2 {
+    font-size: 2.5rem;
+    margin-top: 100px;
+    font-style: italic;
+}
+.footer {
+    margin: 110px;
+    padding-top: 20px;
+    float: right;
+}
+.footer p {
+    color: 000080;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+@media (max-width: 768px) {
+    .container {
+      width: 95%;
+      height: auto;
+      padding: 15px;
+      margin: 0 auto;
+    }
+    
+    h1 {
+        font-size: 1.5rem;
+        text-align: center;
+        line-height: 1.3;
+        font-weight: 600;
+    }
+    .logo {
+        width: 80%;
+        height: auto;
+       border-radius: 50%;
+        padding: 10px;
+        float: none;
+        display: block;
+        margin: 10px auto;
+        transition: all 1s;
+
+    }
+        .logo:hover  {
+        transform: scale(1.5)
+    }
+
+
+    h2 {
+        font-size: 1.2rem;
+        text-align: center;
+        padding: 0 10px;
+        
+
+    }
+  p {
+    font-size: 2rem;
+    text-align: center;
+    padding: 0 10px;
+  }
+  .footer {
+    margin: 30px;
+    text-align: center;
+    
+    
+  }
+  .footer p {
+   font-size: 0.9rem;
+    border: none;
+    padding: 20px;
+
+}
+}
